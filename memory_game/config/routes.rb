@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   post "/signin", to: "users#signin"
   post "/games", to: "games#new_game" 
+  get "/games/top_10", to: "games#top_10"
 
 end
